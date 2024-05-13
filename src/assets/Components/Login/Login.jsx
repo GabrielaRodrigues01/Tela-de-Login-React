@@ -12,6 +12,8 @@ const Login = () => {
     const envioForm = (event) => {
         event.preventDefault();
         console.log("Envio");
+
+        alert("Enviando os dados:" + username + " - " + password);
         
     };
 
