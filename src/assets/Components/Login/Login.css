@@ -25,11 +25,11 @@
     height: 100%;
     background-color: transparent;
     outline: none;
-    border: 2px solid rgba(225, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 40px;
     font-size: 16px;
     color:#fff;
-    padding: 20px 45px;
+    padding: 20px 25px;
 }
 
 .input-field input::placeholder{
@@ -53,19 +53,21 @@
 }
 
 .recall-forget label {
-    color:#fff
+    color: #fff
 }
 
 .recall-forget input {
     margin-right:  5px;
 }
 
-.recall-forget a {
+.recall-forget a,
+.signup-link p a {
     color:#fff;
     text-decoration: none;
 }
 
-.recall-forget a:hover {
+.recall-forget a:hover, 
+.signup-link p a:hover {
     text-decoration:underline;
 }
 
@@ -76,8 +78,17 @@
     border: none;
     outline: none;
     border-radius: 40px;
-    cursor:pointer;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+}
 
+.container .signup-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.signup-link p a {
+    color: #000000;
 }
