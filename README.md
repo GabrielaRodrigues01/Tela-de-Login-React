@@ -14,7 +14,7 @@ Após instalar todas as dependências e configurar o ambiente de desenvolvimento
 
 Dentro da pasta source do projeto eu criei uma outra pasta chamada de (components), e dentro dela criei mais uma pasta para alocar separadamente os componentes necessários que utilizei sendo ela a pasta (login), onde utilizei ela para separar por dois arquivos, o de login que é o principal (login.jsx), e o (login.css) onde deixei para colocar os estilos da parte do formulário. 
 
-Para me auxiliar melhor no desenvolvimento utilizei a extensão 'ES7 React/Redux/GraphQL/React-Native snippets' pois ela fornece um conjunto de atalhos que torna a criação de componentes mais fácil. 
+Para me auxiliar melhor no desenvolvimento utilizei a extensão 'ES7 React/Redux/GraphQL/React-Native snippets' pois ela fornece um conjunto de atalhos que torna a criação de componentes mais fácil.
 
 No login.jsx modelei o componente de formulário e implementei a funcionalidade de envio do formulário com o evento (OnSubmit), e o (OnChange), para mapear os dados do usuário em cada campo e salvá-los no hook 'useState'. 
 
