@@ -1,12 +1,14 @@
 # React + Vite
 
-Tela de login desenvolvida com React e Vite. 
+Este projeto serve como um exemplo prático de como criar uma tela de login simples e eficaz utilizando as tecnologias React, Vite e JavaScript. O projeto demonstra os passos básicos para configurar o ambiente de desenvolvimento, criar componentes React, estilizar com CSS e executar o projeto localmente.
+
+ Sinta-se à vontade para explorar o código-fonte, fazer contribuições ou utilizar como base para seus próprios projetos. 
 
 **1- Configuração do ambiente de desenvolvimento:**
 
 Para realizar esse projeto foi necessário ter o Node.js e o npm instalados, em seguida criar um novo diretório para o projeto, navegar ate esse diretório e inicializar um novo projeto npm. 
 
-Instalei o Vite globalmente utilizando o comando (create-vite .), e criei um novo projeto Vite dentro do diretório do projeto, selecionei a opção de utilizar react e depois javascript e logo em seguida utilizei mais dois comandos sendo eles (npm install), para instalar todas as dependências necessárias do projeto e o comando (npm run dev), para iniciar o servidor de desenvolvimento. 
+Instalei o Vite globalmente utilizando o comando (create-vite .), e criei um novo projeto Vite dentro do diretório que estava utilizando atualmente, selecionei a opção de utilizar react e depois javascript e logo em seguida utilizei mais dois comandos sendo eles o (npm install), para instalar todas as dependências necessárias do projeto e o comando (npm run dev), para iniciar o servidor de desenvolvimento. 
 
 Após instalar todas as dependências e configurar o ambiente de desenvolvimento, consegui ter uma estrutura básica do projeto, e fui limpando o que não iria utilizar e criar minha própria estrutura de pastas e arquivos. Eu retirei tudo que estava no index.css onde vem todos os estilos globais pois criei os meus, e também limpei o que não precisava utilizar do app.jsx como os states e imports. 
 
