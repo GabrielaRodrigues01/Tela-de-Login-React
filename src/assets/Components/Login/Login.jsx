@@ -1,6 +1,6 @@
 import { FaUser, FaLock } from "react-icons/fa";
 
-import { useState, userState } from "react";
+import { useState } from "react";
 
 import "./Login.css";
 
@@ -11,7 +11,6 @@ const Login = () => {
 
     const envioForm = (event) => {
         event.preventDefault();
-        console.log("Envio");
 
         alert("Enviando os dados:" + username + " - " + password);
         
